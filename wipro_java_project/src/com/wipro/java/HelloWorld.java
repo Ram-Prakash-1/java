@@ -6,12 +6,12 @@ package com.wipro.java;
 /**
  * 
  */
-public class Flowers {
+public class HelloWorld {
 
 	/**
 	 * 
 	 */
-	public Flowers() {
+	public HelloWorld() {
 		// TODO Auto-generated constructor stub
 	}
 
