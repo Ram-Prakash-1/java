@@ -8,7 +8,7 @@ public class Audi extends Car {
 
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
-	Car car=new Ford();
+	Car car=new Audi();
 	car.setBodyType("Sedan");
 	car.setCompany("Audi");
 	car.carDetail();
