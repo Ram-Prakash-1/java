@@ -1,11 +1,23 @@
 package com.wipro.java.oops;
 //POJO - Plain old java object 
+//No constructor
+//getter have return value
+//setter have no return value
+//prop are determine through setters
+//tostring will convert entireEmployee class with prop and behaviors
 public class Employee {
+
 	private int empId; //This is Employee ID
 	private int empAge; //This is Employee Age
 	private String empName; //This is Employee Name
 	private String empDesignation; //This is Employee Designation
 	private int empContact; //This is Employee Contact number
+	
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empAge=" + empAge + ", empName=" + empName + ", empDesignation="
+				+ empDesignation + ", empContact=" + empContact + "]";
+	}
 
 
 	public int getEmpId() {
