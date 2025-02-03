@@ -1,4 +1,4 @@
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 //POJO - Plain old java object 
 //No constructor
 //getter have return value
