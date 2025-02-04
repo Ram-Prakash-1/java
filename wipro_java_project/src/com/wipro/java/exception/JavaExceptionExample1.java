@@ -1,13 +1,12 @@
 package com.wipro.java.exception;
 
 public class JavaExceptionExample1 {
-	static int i=4;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a=35,b=0,data,c;
+		int num1=35,num2=0,res;
 		try {
-			c=a/b;
+			res=num1/num2;
 		}
 		catch(Exception e) {
 			System.out.println(e.toString());
@@ -15,8 +14,7 @@ public class JavaExceptionExample1 {
 		finally {
 			System.out.println("It will always execute");
 		}
-		
-
+		System.out.println("");
 	}
 
 }
